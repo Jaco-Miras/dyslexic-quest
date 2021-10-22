@@ -156,10 +156,10 @@ RectTransform:
   m_Father: {fileID: 1283204347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.035563722, y: 0.9028418}
-  m_AnchorMax: {x: 0.067, y: 0.94854885}
-  m_AnchoredPosition: {x: 1.5, y: -0.8000488}
-  m_SizeDelta: {x: 0.35351562, y: 0}
+  m_AnchorMin: {x: 0.041127443, y: 0.89100003}
+  m_AnchorMax: {x: 0.081345595, y: 0.94685614}
+  m_AnchoredPosition: {x: 0.29992676, y: 0.000045776367}
+  m_SizeDelta: {x: -0.21339989, y: 0.3757}
   m_Pivot: {x: 0.5, y: 0.500001}
 --- !u!114 &599301890
 MonoBehaviour:
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b1d680c4709d7b54cbb563d87367f984, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4eda51aa05c70642a00837631d30c63, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -931,10 +931,10 @@ RectTransform:
   m_Father: {fileID: 1266558347}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.84800005, y: 0.046548516}
-  m_AnchorMax: {x: 0.9587912, y: 0.143}
-  m_AnchoredPosition: {x: -0.4607849, y: 0.6407013}
-  m_SizeDelta: {x: 1.0682998, y: 0.8470001}
+  m_AnchorMin: {x: 0.78900003, y: 0}
+  m_AnchorMax: {x: 0.9635302, y: 0.245}
+  m_AnchoredPosition: {x: 1.2000122, y: 0.19998169}
+  m_SizeDelta: {x: -0.20359802, y: 0.39990234}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1818766820
 MonoBehaviour:
@@ -1012,8 +1012,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 9f194975b936c1649ba2d2d5843a34ab, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1088,8 +1088,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 002bddd927aa3644b9a4eeacdc3fa372, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: b7785207919ef3542978875b4434935b, type: 3}
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0

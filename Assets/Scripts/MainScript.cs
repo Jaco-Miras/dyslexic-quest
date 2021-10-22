@@ -28,18 +28,15 @@ public class MainScript : MonoBehaviour
 
     // Level Unlocked
 
-    public void GetMap()
+    public void GetMap(string map)
     {
         Debug.Log("Level Is" + LevelManager.levelsUnlocked);
-        if (LevelManager.levelsUnlocked >= 10)
-        {
-            SceneManager.LoadScene("Level_" + LevelManager.levelsUnlocked);
-        }
-        else
-        {
-            SceneManager.LoadScene("Level_0" + LevelManager.levelsUnlocked);
-        }
+
+        SceneManager.LoadScene("Level_"+map);
     }
+
+
+    
 
 
 
