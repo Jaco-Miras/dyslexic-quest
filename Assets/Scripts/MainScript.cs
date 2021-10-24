@@ -30,7 +30,7 @@ public class MainScript : MonoBehaviour
 
     public void GetMap(string map)
     {
-        Debug.Log("Level Is" + LevelManager.levelsUnlocked);
+        Debug.Log("Level Is " + LevelManager.levelsUnlocked);
 
         SceneManager.LoadScene("Level_"+map);
     }
