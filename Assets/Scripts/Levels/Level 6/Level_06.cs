@@ -11,13 +11,13 @@ public class Level_06 : MonoBehaviour
     void Start()
     {
 
-        if (LevelManager.levelsUnlocked < 6)
+        if (LevelManager.levelsUnlocked == 6)
         {
-            GetComponent<Button>().interactable = false;
+            GetComponent<Button>().interactable = true;
         }
         else
         {
-            GetComponent<Button>().interactable = true;
+            GetComponent<Button>().interactable = false;
         }
 
 

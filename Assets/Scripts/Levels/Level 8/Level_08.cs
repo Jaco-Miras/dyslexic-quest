@@ -11,13 +11,13 @@ public class Level_08 : MonoBehaviour
     void Start()
     {
 
-        if (LevelManager.levelsUnlocked < 8)
+        if (LevelManager.levelsUnlocked == 8)
         {
-            GetComponent<Button>().interactable = false;
+            GetComponent<Button>().interactable = true;
         }
         else
         {
-            GetComponent<Button>().interactable = true;
+            GetComponent<Button>().interactable = false;
         }
 
 
