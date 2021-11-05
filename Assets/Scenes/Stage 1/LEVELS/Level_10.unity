@@ -1347,7 +1347,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 68316439}
         m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: Congrats
+        m_MethodName: Congrats10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

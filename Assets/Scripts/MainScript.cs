@@ -36,7 +36,10 @@ public class MainScript : MonoBehaviour
     }
 
 
-    
+    // Proceed to Stage 2
+    public void StageTwo(){
+        SceneManager.LoadScene("Close Gate");
+    }
 
 
 
@@ -46,6 +49,11 @@ public class MainScript : MonoBehaviour
     {
         LevelManager.levelsUnlocked++;
         SceneManager.LoadScene("Congrats");
+    }
+
+    // Congrats to Stage 2
+    public void Congrats10(){
+        SceneManager.LoadScene("Congrats 10");
     }
 
     // Back 
