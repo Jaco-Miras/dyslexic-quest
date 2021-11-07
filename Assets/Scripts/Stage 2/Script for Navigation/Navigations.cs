@@ -13,6 +13,10 @@ public class Navigations : MonoBehaviour
 	public void Hallway(){
 		SceneManager.LoadScene("Hallway");
 	}
+	//Go to Dialogue Scene
+	public void Dialogue(){
+		SceneManager.LoadScene("DialogueScene");
+	}
 	// Go to HallwayZoomIn
 	public void HallwayZoomIn(){
 		SceneManager.LoadScene("Hallway(ZoomIn)");
@@ -76,6 +80,10 @@ public class Navigations : MonoBehaviour
 	// Go to Corridors2(ZoomIn)
 	public void CorridorsTwoZoomIn(){
 		SceneManager.LoadScene("Corridors2(ZoomIn)");
+	}
+	// Go to Classroom
+	public void Classroom(){
+		SceneManager.LoadScene("Classroom");
 	}
 
 }

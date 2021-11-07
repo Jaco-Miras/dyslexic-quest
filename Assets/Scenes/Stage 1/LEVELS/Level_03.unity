@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Camel
+  m_Text: camel
 --- !u!222 &110003060
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lion
+  m_Text: lion
 --- !u!222 &283477842
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1404,7 +1404,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cat
+  m_Text: cat
 --- !u!222 &1098962435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1788,7 +1788,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tiger
+  m_Text: tiger
 --- !u!222 &2000240222
 CanvasRenderer:
   m_ObjectHideFlags: 0

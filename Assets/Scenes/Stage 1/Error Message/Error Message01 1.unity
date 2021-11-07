@@ -399,7 +399,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -454,8 +454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.10971292, y: 0.44211406}
   m_AnchorMax: {x: 0.9267553, y: 0.83452857}
-  m_AnchoredPosition: {x: -2.5, y: 1.1946106}
-  m_SizeDelta: {x: 8.128098, y: -0.62109375}
+  m_AnchoredPosition: {x: -2.5, y: 19.347214}
+  m_SizeDelta: {x: 8.1281, y: -36.9263}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &767131860
 MonoBehaviour:
@@ -554,11 +554,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -613,7 +613,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -950.8478, y: -371.644}
+  m_SizeDelta: {x: -1533.3594, y: -611.855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1076801106
 Animator:
@@ -1074,8 +1074,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000047684, y: -0.0000076294}
-  m_SizeDelta: {x: 674.778, y: 172.2605}
+  m_AnchoredPosition: {x: -4.2294, y: -0.000020027}
+  m_SizeDelta: {x: 683.24, y: 64.995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875094332
 MonoBehaviour:
@@ -1110,7 +1110,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Your answer is Incorrect. Please Try Again
+  m_Text: 'Please Try Again
+
+'
 --- !u!222 &1875094333
 CanvasRenderer:
   m_ObjectHideFlags: 0
