@@ -10,6 +10,7 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
 
+
     public AudioSource[] audioSource;
     public int line = 0;
    
@@ -72,7 +73,6 @@ public class Dialogue : MonoBehaviour
         else {
             gameObject.SetActive(false);
         }
-       
        
     }
    

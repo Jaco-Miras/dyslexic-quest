@@ -223,7 +223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.005603448, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6.0023193, y: -12.507797}
+  m_AnchoredPosition: {x: -6.0024414, y: -12.5078125}
   m_SizeDelta: {x: 13.995, y: -25.0157}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278432690
@@ -400,6 +400,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647378556}
   m_CullTransparentMesh: 1
+--- !u!1 &797537761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797537762}
+  - component: {fileID: 797537764}
+  - component: {fileID: 797537763}
+  m_Layer: 0
+  m_Name: Joey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &797537762
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797537761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1426543331}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.3253882, y: 0}
+  m_AnchorMax: {x: 0.43735868, y: 0.42052907}
+  m_AnchoredPosition: {x: 2.6455078, y: -23}
+  m_SizeDelta: {x: -9.290985, y: 52.359985}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &797537763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797537761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3eea2d5ffd9927a4b90a3b072efecedf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &797537764
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797537761}
+  m_CullTransparentMesh: 1
 --- !u!1 &1107856861
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,13 +524,12 @@ RectTransform:
   m_LocalScale: {x: 1.021551, y: 1.021551, z: 1.021551}
   m_Children:
   - {fileID: 278432689}
-  - {fileID: 2135128901}
   m_Father: {fileID: 647378557}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.785}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -19.1065}
+  m_AnchoredPosition: {x: 0, y: -19.106445}
   m_SizeDelta: {x: -50, y: 32.4512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1107856863
@@ -592,28 +666,32 @@ MonoBehaviour:
   - Luckily, he met his childhood friend named Jack who is a student of the school
     and knows every part of the facilities of the campus.
   - 'Jack knows that joey is diagnosed with dyslexia and is ready to help him,  '
-  - 'Joey: Hey jack! Can you help me find my room?'
-  - "Jack: ok let me see, based on the paper you\u2019re holding your class is in
-    room 2-15, I like to go with you to your classroom but I have my classes too,"
-  - "so instead I\u2019ll tell you the directions towards the room. Is it ok? "
-  - 'Joey: Sure jack!'
-  - 'Jack: Let''s hurry because we''re getting late. First, you need to locate the
-    2nd floor because that''s where room 2-15 is located,'
-  - I suggest you take the stairs because the elevator is very busy at this hour.
-    The stairs are located on the far left of where we are standing right now.
-  - "Just follow the stairs until you reach the 2nd floor. Once you are there, you
-    turn right, you\u2019ll see the OSA or the Office of the Student Affairs."
-  - "You\u2019ll know it when you see a black door. When you see the OSA office you
-    need to turn left."
-  - "You\u2019ll see 5 rooms in that area, the rooms on your left side is a room
-    full of equipment for pe classes and the faculty room,"
-  - "the room in front of you is the school clinic while the room on your right side
-    is room 2-14 and 2-15. In front of the faculty office, that\u2019s your classroom
-    Joey."
-  - Do you remember it all joey?
-  - 'Joey: Yes jack thanks for the help. '
-  - 'Jack:  Ok Joey I really need to go! Good luck with your classes! See you later!'
-  - 'Joey: You too! '
+  - Joey:<color=red> Hey jack! Can you help me find my room?</color>
+  - "Jack:<color=blue> Ok let me see, based on the paper you\u2019re holding your
+    class is in room 2-15, I like to go with you to your classroom but I have my
+    classes too,</color>"
+  - "<color=blue>so instead I\u2019ll tell you the directions towards the room. Is
+    it ok? </color>"
+  - 'Joey: <color=red>Sure jack!</color>'
+  - 'Jack: <color=blue>Let''s hurry because we''re getting late. First, you need
+    to locate the 2nd floor because that''s where room 2-15 is located,</color>'
+  - <color=blue>I suggest you take the stairs because the elevator is very busy at
+    this hour. The stairs are located on the far left of where we are standing right
+    now.</color>
+  - "<color=blue>Just follow the stairs until you reach the 2nd floor. Once you are
+    there, you turn right, you\u2019ll see the OSA or the Office of the Student Affairs.</color>"
+  - "<color=blue>You\u2019ll know it when you see a grey door. When you see the OSA
+    office you need to turn left.</color>"
+  - "<color=blue>You\u2019ll see 5 rooms in that area, the rooms on your left side
+    is a room full of equipment for pe classes and the faculty room,</color>"
+  - "<color=blue>the room in front of you is the school clinic while the room on
+    your right side is room 2-14 and 2-15. In front of the faculty office, that\u2019s
+    your classroom Joey.</color>"
+  - <color=blue>Do you remember it all joey?</color>
+  - Joey:<color=red> Yes jack thanks for the help. </color>
+  - 'Jack:  <color=blue>Ok Joey I really need to go! Good luck with your classes!
+    See you later!</color>'
+  - 'Joey: <color=red>You too! </color>'
   textSpeed: 0
   audioSource:
   - {fileID: 1107856864}
@@ -2208,6 +2286,81 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1240299000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1240299001}
+  - component: {fileID: 1240299003}
+  - component: {fileID: 1240299002}
+  m_Layer: 0
+  m_Name: Jack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1240299001
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240299000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1426543331}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5627975, y: 0}
+  m_AnchorMax: {x: 0.6684853, y: 0.42052907}
+  m_AnchoredPosition: {x: -0.85440063, y: -22.583008}
+  m_SizeDelta: {x: 5.709015, y: 52.359985}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1240299002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240299000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fa765a8cefba08a4297d229e01c6277a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1240299003
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240299000}
+  m_CullTransparentMesh: 1
 --- !u!1 &1426543330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,6 +2394,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 647378557}
+  - {fileID: 797537762}
+  - {fileID: 1240299001}
   m_Father: {fileID: 1738462148}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2587,82 +2742,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2135128900
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2135128901}
-  - component: {fileID: 2135128903}
-  - component: {fileID: 2135128902}
-  m_Layer: 0
-  m_Name: Skip
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2135128901
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135128900}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1107856862}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.8928448, y: 0.02252694}
-  m_AnchorMax: {x: 0.984, y: 0.24520959}
-  m_AnchoredPosition: {x: -1.2052002, y: 0.7746124}
-  m_SizeDelta: {x: 0.91199875, y: -3.7418003}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2135128902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135128900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 46
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 46
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: SKIP >>>
---- !u!222 &2135128903
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135128900}
-  m_CullTransparentMesh: 1
