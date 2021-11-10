@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI; 
 
-public class AnswerManager03: MonoBehaviour
+public class AnswerManager10: MonoBehaviour
 {
    public static string answer = "";
    public int AnswerLength;
@@ -16,7 +16,7 @@ public class AnswerManager03: MonoBehaviour
         Debug.Log("Answer is " + answer);
  
         if(answer.Length == AnswerLength){
-            SceneManager.LoadScene("03Level04");
+            SceneManager.LoadScene("Blackboard");
             Debug.Log("Success");
         }
     }

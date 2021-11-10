@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PanelOpen002 : MonoBehaviour
+public class PanelOpen04 : MonoBehaviour
 {
    public GameObject Panel;
-   public AnswerManager02 answer;
+   public AnswerManager04 answer;
    public Button myBTN;
 
 
-   public void OpenPanel02(string letter)
+   public void OpenPanel04(string letter)
    {	
 		
 		if(Panel != null)
