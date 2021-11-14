@@ -15,7 +15,7 @@ public class Dialogue : MonoBehaviour
     public int line = 0;
    
     private int index;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +24,7 @@ public class Dialogue : MonoBehaviour
     }
 
     void Awake()
-    {
+    {      
         audioSource[0].Play();
     }
 
@@ -67,8 +67,10 @@ public class Dialogue : MonoBehaviour
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
 
+            audioSource[line].Stop();
             line++;
             audioSource[line].Play();
+    
         }
         else {
             gameObject.SetActive(false);
