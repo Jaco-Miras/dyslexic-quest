@@ -17,5 +17,9 @@ public class Stage2 : MonoBehaviour
 	public void HallwayZoomIn(){
 		SceneManager.LoadScene("Hallway(ZoomIn)");
 	}
+	// Go to Lobby
+	public void Lobby(){
+		SceneManager.LoadScene("Ending Scene 2");
+	}
 
 }

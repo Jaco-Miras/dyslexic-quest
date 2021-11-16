@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Navigations : MonoBehaviour
 {
+
+	// Back to CloseGAte
+	public void CloseGate(){
+		SceneManager.LoadScene("Close Gate");
+	}
+
 	// Go to Open Gate
 	public void OpenGate(){
 		SceneManager.LoadScene("Open Gate");

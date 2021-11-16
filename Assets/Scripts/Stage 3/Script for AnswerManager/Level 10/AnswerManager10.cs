@@ -16,7 +16,7 @@ public class AnswerManager10: MonoBehaviour
         Debug.Log("Answer is " + answer);
  
         if(answer.Length == AnswerLength){
-            SceneManager.LoadScene("Blackboard");
+            SceneManager.LoadScene("03Congrats");
             Debug.Log("Success");
         }
     }
