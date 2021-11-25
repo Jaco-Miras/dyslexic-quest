@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1799791022}
         m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: Back
+        m_MethodName: Teaser
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -558,10 +558,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Joey, is a new student on  Woodside High School is very excited to enter
-    school for the first time, unfortunately on the next morning,  he woke up late
-    and needs to prepare  for his first day of class despite having dyslexia he needs
-    to overcome his disadvantages and obstacles while on the way.
+  m_Text: Joey, is a new student on  Woodside Elementary School is very excited to
+    enter school for the first time, unfortunately on the next morning, he woke up
+    late and needs to prepare for his first day of class despite having dyslexia
+    he needs to overcome his disadvantages and obstacles while on the way.
 --- !u!222 &1577454404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1133,7 +1133,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1799791022}
         m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: Map
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainScript : MonoBehaviour
 {
+    public Timer timer;
     //int level = 1;
-     //public LevelManager level;
+    public LevelManager level;
 
    // Play Game
    public void PlayGame()
@@ -36,13 +37,55 @@ public class MainScript : MonoBehaviour
     }
 
 
+    // Proceed to Stars
+
+    // Go to 3 Stars
+    public void StarsThree(){
+        Debug.Log("Time Left " + Timer.secondsLeft);
+        SceneManager.LoadScene("3 Stars");
+    }
+
+    public void GetResult(){
+        if (Timer.secondsLeft > 41)
+        {
+            LevelManager.levelsUnlocked++;
+            SceneManager.LoadScene("3 Stars");
+        }
+        else if (Timer.secondsLeft > 21)
+        {
+            LevelManager.levelsUnlocked++;
+            SceneManager.LoadScene("2 Stars");
+        }
+        else if (Timer.secondsLeft > 1)
+        {
+            LevelManager.levelsUnlocked++;
+            SceneManager.LoadScene("1 Star");
+        }
+        else{
+            SceneManager.LoadScene("Retry");
+        }
+    }
+
+
     // Proceed to Stage 2
     public void StageTwo(){
         SceneManager.LoadScene("Close Gate");
     }
 
+    // Proceed to Teaser
+    public void Teaser(){
+        SceneManager.LoadScene("Teaser");
+    }
 
+    // Back to Main Menu
+    public void MainMenu(){
+        SceneManager.LoadScene("Main Menu");
+    }
 
+    // Proceed to Storyline
+    public void Storyline(){
+        SceneManager.LoadScene("Story Line");
+    }
 
     // Congrats
     public void Congrats()

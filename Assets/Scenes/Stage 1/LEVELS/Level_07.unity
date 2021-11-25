@@ -205,19 +205,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 123252236}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 522743893}
-        m_TargetAssemblyTypeName: ErrorMessage, Assembly-CSharp
-        m_MethodName: GotoErrorMessage7
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &123252236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,19 +486,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 232961285}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 522743893}
-        m_TargetAssemblyTypeName: ErrorMessage, Assembly-CSharp
-        m_MethodName: GotoErrorMessage7
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &232961285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,19 +1207,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1091943333}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 522743889}
-        m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: Congrats
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1091943333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1795,19 +1759,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1870937322}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 522743893}
-        m_TargetAssemblyTypeName: ErrorMessage, Assembly-CSharp
-        m_MethodName: GotoErrorMessage7
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1870937322
 MonoBehaviour:
   m_ObjectHideFlags: 0

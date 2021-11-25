@@ -2212,7 +2212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4c060c39fa3d87542b22229045867fcc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fa0a092490b7c144a786eed8a86f12c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2651,12 +2651,12 @@ MonoBehaviour:
   textComponent: {fileID: 1349625345}
   lines:
   - "After Joey\u2019s classes, he and jack saw each other in the lobby. "
-  - '<color=blue> Jack: Hey Joey! How was your first day in class? </color>'
-  - "<color=red>Joey: It was really great jack! By the way thanks for your help earlier.
+  - Jack:<color=blue> Hey Joey! How was your first day in class? </color>
+  - "Joey: <color=red>It was really great jack! By the way thanks for your help earlier,
     without your help, I can\u2019t reach my classroom in time. </color>"
-  - '<color=blue> Jack: Don''t mention it joey! I have to go, my mom is waiting at
-    my house. See you tomorrow! </color>'
-  - '<color=red>Joey: Ok jack! See you tomorrow too. </color>'
+  - Jack:<color=blue> Don't mention it joey! I have to go, my mom is waiting at my
+    house. See you tomorrow! </color>
+  - 'Joey: <color=red>Ok jack! See you tomorrow too. </color>'
   textSpeed: 0
   audioSource:
   - {fileID: 1531254326}
