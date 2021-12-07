@@ -349,6 +349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c327b91f5ff45649b3fdc39ecbf708c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  level: {fileID: 0}
 --- !u!114 &696552594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,7 +749,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 696552593}
         m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: Teaser
+        m_MethodName: MainTeaser
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

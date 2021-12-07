@@ -8,7 +8,8 @@ public class MainScript : MonoBehaviour
     public Timer timer;
     //int level = 1;
     public LevelManager level;
-
+    //public AnswerManager01 answer1;
+    //public TimerStage3 time;
    // Play Game
    public void PlayGame()
     {
@@ -20,6 +21,11 @@ public class MainScript : MonoBehaviour
     {
        //level.helloWorld();
        SceneManager.LoadScene("Map");
+
+       if (LevelManager.levelsUnlocked > 10)
+       {
+            SceneManager.LoadScene("Close Gate");
+       }
     }
     // Level 01
    // public void Level01()
@@ -32,14 +38,27 @@ public class MainScript : MonoBehaviour
     public void GetMap(string map)
     {
         Debug.Log("Level Is " + LevelManager.levelsUnlocked);
-
+        Timer.secondsLeft = 59;
         SceneManager.LoadScene("Level_"+map);
+    }
+
+    public void GetRetry()
+    {
+        Debug.Log("The Level is " + LevelManager.GetLevel());
+        Timer.secondsLeft = 59;
+        SceneManager.LoadScene("Level_0" + LevelManager.GetLevel());
+        if (LevelManager.GetLevel() < 10)
+        {
+            SceneManager.LoadScene("Level_0" + LevelManager.GetLevel());
+        }
+        else
+        {
+            SceneManager.LoadScene("Level_" + LevelManager.GetLevel());
+        }
     }
 
 
     // Proceed to Stars
-
-    // Go to 3 Stars
     public void StarsThree(){
         Debug.Log("Time Left " + Timer.secondsLeft);
         SceneManager.LoadScene("3 Stars");
@@ -66,6 +85,16 @@ public class MainScript : MonoBehaviour
         }
     }
 
+    // Codes for Stage 3
+    /*public void Get01()
+    {
+        if(time.timeValue > 91)
+        {
+           AnswerManager01.Count++;
+           SceneManager.LoadScene("3 Stars");
+        }
+    } */
+
 
     // Proceed to Stage 2
     public void StageTwo(){
@@ -73,8 +102,8 @@ public class MainScript : MonoBehaviour
     }
 
     // Proceed to Teaser
-    public void Teaser(){
-        SceneManager.LoadScene("Teaser");
+    public void MainTeaser(){
+        SceneManager.LoadScene("Main Teaser");
     }
 
     // Back to Main Menu

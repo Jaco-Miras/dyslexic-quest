@@ -6,13 +6,16 @@ using UnityEngine.UI;
 public class PanelOpen002 : MonoBehaviour
 {
    public GameObject Panel;
-   public AnswerManager02 answer;
+   public AnswerManager answer;
    public Button myBTN;
 
 
    public void OpenPanel02(string letter)
    {	
-		
+
+		Debug.Log(letter);
+		if(answer.isCorrect(letter))
+		{
 		if(Panel != null)
 		{
 			bool isActive = Panel.activeSelf;
@@ -20,6 +23,8 @@ public class PanelOpen002 : MonoBehaviour
 			answer.AddLetter(letter);
 			myBTN.interactable = false;
 		}
+		}
+		
 
 	}	
 }

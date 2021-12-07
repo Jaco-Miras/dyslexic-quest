@@ -6,20 +6,26 @@ using UnityEngine.UI;
 public class PanelOpen04 : MonoBehaviour
 {
    public GameObject Panel;
-   public AnswerManager04 answer;
+   public AnswerManager answer;
    public Button myBTN;
 
 
    public void OpenPanel04(string letter)
    {	
-		
+		Debug.Log(letter);
+		if(answer.isCorrect(letter))
+		{
+
+		Debug.Log("The Answer " + answer.isCorrect(letter));
 		if(Panel != null)
 		{
 			bool isActive = Panel.activeSelf;
 			Panel.SetActive(!isActive);
-			answer.AddLetter(letter);
+			answer.AddLetter(letter);	
 			myBTN.interactable = false;
+
+		}
 		}
 
-	}	
-}
+		}
+	}

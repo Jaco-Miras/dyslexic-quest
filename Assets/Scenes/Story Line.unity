@@ -205,9 +205,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1799791022}
-        m_TargetAssemblyTypeName: MainScript, Assembly-CSharp
-        m_MethodName: Teaser
+      - m_Target: {fileID: 1799791026}
+        m_TargetAssemblyTypeName: Teaser, Assembly-CSharp
+        m_MethodName: Teaser5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -736,6 +736,7 @@ GameObject:
   - component: {fileID: 1799791023}
   - component: {fileID: 1799791024}
   - component: {fileID: 1799791025}
+  - component: {fileID: 1799791026}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -837,6 +838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c327b91f5ff45649b3fdc39ecbf708c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  level: {fileID: 0}
 --- !u!95 &1799791023
 Animator:
   serializedVersion: 3
@@ -962,7 +965,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0deb66f64660b614c922de04abd0b794, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fbab286b8cafbc54daa49ad2d8406d2e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1048,6 +1051,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1799791026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799791017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8428e24ca7726f647b4ce3e75e839c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1818766818
 GameObject:
   m_ObjectHideFlags: 0

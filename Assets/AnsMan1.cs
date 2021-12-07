@@ -19,8 +19,4 @@ public class AnsMan1 : MonoBehaviour
             Debug.Log("Success");
         }
     }
-    
-
-
-  
-    }
+  }

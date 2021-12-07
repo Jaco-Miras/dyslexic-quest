@@ -8,9 +8,9 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int currentLevel = level.GetLevel();
+        //int currentLevel = level.GetLevel();
 
-        Debug.Log("Current Level" + currentLevel);
+        //Debug.Log("Current Level" + currentLevel);
     }
 
     // Update is called once per frame
