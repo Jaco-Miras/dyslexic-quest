@@ -27,7 +27,7 @@ public class StarsRetry : MonoBehaviour
    public void NextLevel()
    {
 		  Debug.Log("The Level Now is " + AnswerManager.GetLevel());	
-		  TimerStage3.timeValue = 5;
+		  TimerStage3.timeValue = 119;
 		  if (AnswerManager.GetLevel() < 10)
 		  {
 			SceneManager.LoadScene("03Level0" + AnswerManager.levelsUnlocked);

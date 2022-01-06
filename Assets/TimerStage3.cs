@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerStage3 : MonoBehaviour
 {
-    public static float timeValue = 5;
+    public static float timeValue = 119;
     public Text timeText;
    
 

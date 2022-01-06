@@ -665,10 +665,10 @@ RectTransform:
   m_Father: {fileID: 437345126}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.074626364, y: 0.397}
+  m_AnchorMin: {x: 0.074626364, y: 0.275}
   m_AnchorMax: {x: 0.93789566, y: 0.59000003}
-  m_AnchoredPosition: {x: -6.69281, y: 1.6559982}
-  m_SizeDelta: {x: -0.47380066, y: 3.3119001}
+  m_AnchoredPosition: {x: -6.69281, y: 2.5160007}
+  m_SizeDelta: {x: -0.4737997, y: 1.5929985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1271785283
 MonoBehaviour:
@@ -703,7 +703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: you have completed the quest
+  m_Text: you have now completed the quest
 --- !u!222 &1271785284
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -725,8 +725,8 @@ GameObject:
   - component: {fileID: 1501706273}
   - component: {fileID: 1501706272}
   - component: {fileID: 1501706275}
-  - component: {fileID: 1501706276}
   - component: {fileID: 1501706277}
+  - component: {fileID: 1501706276}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -828,6 +828,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c327b91f5ff45649b3fdc39ecbf708c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  level: {fileID: 0}
 --- !u!82 &1501706276
 AudioSource:
   m_ObjectHideFlags: 0
@@ -838,7 +840,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3e96849791207444d90f1f1b158e40de, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c86281c3f64fc9746846ad2f4b2bd574, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -936,7 +938,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e7b773c47a6fdc846976f0201e750824, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0
