@@ -4228,8 +4228,8 @@ GameObject:
   - component: {fileID: 1816051979}
   - component: {fileID: 1816051978}
   - component: {fileID: 1816051983}
-  - component: {fileID: 1816051982}
   - component: {fileID: 1816051981}
+  - component: {fileID: 1816051982}
   m_Layer: 0
   m_Name: M
   m_TagString: Untagged
@@ -4444,14 +4444,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1816051976}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d94da54700b9aa247b512991f732bac7, type: 3}
+  m_Script: {fileID: 11500000, guid: bdad95059010d174abe798200df2d6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 1816051981}
   clickFx: {fileID: 8300000, guid: 5d7217aa70f02ab45b294008a9832303, type: 3}
-  Panel: {fileID: 0}
-  answer: {fileID: 0}
-  myBTN: {fileID: 0}
 --- !u!114 &1816051983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4470,9 +4467,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1816051982}
-          m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
-          m_MethodName: ClickSound
-          m_Mode: 5
+          m_TargetAssemblyTypeName: AudioButton, Assembly-CSharp
+          m_MethodName: TriggerSound
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4915,8 +4912,8 @@ GameObject:
   - component: {fileID: 2075593814}
   - component: {fileID: 2075593813}
   - component: {fileID: 2075593818}
-  - component: {fileID: 2075593817}
   - component: {fileID: 2075593816}
+  - component: {fileID: 2075593817}
   m_Layer: 0
   m_Name: O
   m_TagString: Untagged
@@ -5131,14 +5128,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2075593811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d94da54700b9aa247b512991f732bac7, type: 3}
+  m_Script: {fileID: 11500000, guid: bdad95059010d174abe798200df2d6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 2075593816}
   clickFx: {fileID: 8300000, guid: a5c80bf2da704b84d8d0d0e8a990240c, type: 3}
-  Panel: {fileID: 0}
-  answer: {fileID: 0}
-  myBTN: {fileID: 0}
 --- !u!114 &2075593818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5157,9 +5151,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 2075593817}
-          m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
-          m_MethodName: ClickSound
-          m_Mode: 5
+          m_TargetAssemblyTypeName: AudioButton, Assembly-CSharp
+          m_MethodName: TriggerSound
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5181,8 +5175,8 @@ GameObject:
   - component: {fileID: 2081494717}
   - component: {fileID: 2081494716}
   - component: {fileID: 2081494721}
-  - component: {fileID: 2081494720}
   - component: {fileID: 2081494719}
+  - component: {fileID: 2081494720}
   m_Layer: 0
   m_Name: Z
   m_TagString: Untagged
@@ -5397,14 +5391,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2081494714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d94da54700b9aa247b512991f732bac7, type: 3}
+  m_Script: {fileID: 11500000, guid: bdad95059010d174abe798200df2d6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 2081494719}
   clickFx: {fileID: 8300000, guid: 9fc5188df9f601b46869dcea27301237, type: 3}
-  Panel: {fileID: 0}
-  answer: {fileID: 0}
-  myBTN: {fileID: 0}
 --- !u!114 &2081494721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5423,9 +5414,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 2081494720}
-          m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
-          m_MethodName: ClickSound
-          m_Mode: 5
+          m_TargetAssemblyTypeName: AudioButton, Assembly-CSharp
+          m_MethodName: TriggerSound
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

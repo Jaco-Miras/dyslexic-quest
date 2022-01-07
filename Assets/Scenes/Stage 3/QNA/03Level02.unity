@@ -208,19 +208,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 223899317}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1612532181}
-        m_TargetAssemblyTypeName: PanelOpen002, Assembly-CSharp
-        m_MethodName: OpenPanel02
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: A
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &223899317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,13 +267,13 @@ MonoBehaviour:
         - m_Target: {fileID: 223899321}
           m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
           m_MethodName: ClickSound
-          m_Mode: 1
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: A
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!82 &223899320
@@ -398,6 +386,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFx: {fileID: 223899320}
   clickFx: {fileID: 8300000, guid: 713ef9fbcee294b4f9d56d1347010db1, type: 3}
+  Panel: {fileID: 1612532180}
+  answer: {fileID: 1994010434}
+  myBTN: {fileID: 223899316}
 --- !u!1 &284574307
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +479,7 @@ MonoBehaviour:
   Count: 0
   AnswerLength: 3
   time: {fileID: 948711194}
+  sleepTime: 3000
 --- !u!114 &305256925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,7 +591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -619,7 +611,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: b
 --- !u!222 &343155862
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -777,7 +769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: b
 --- !u!222 &363122751
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1165,19 +1157,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 824103695}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1835227741}
-        m_TargetAssemblyTypeName: PanelOpen002, Assembly-CSharp
-        m_MethodName: OpenPanel02
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: B
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &824103695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1326,6 +1306,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFx: {fileID: 824103697}
   clickFx: {fileID: 8300000, guid: 2b7823f3fd8fcb14890323ea73a3a180, type: 3}
+  Panel: {fileID: 1835227740}
+  answer: {fileID: 1994010434}
+  myBTN: {fileID: 824103694}
 --- !u!114 &824103699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,13 +1329,13 @@ MonoBehaviour:
         - m_Target: {fileID: 824103698}
           m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
           m_MethodName: ClickSound
-          m_Mode: 1
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: B
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!1 &948711193
@@ -1593,7 +1576,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: a
 --- !u!222 &1094115619
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1652,7 +1635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1672,7 +1655,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: X
+  m_Text: x
 --- !u!222 &1160475781
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1731,7 +1714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1751,7 +1734,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: F
+  m_Text: f
 --- !u!222 &1262001801
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1772,9 +1755,9 @@ GameObject:
   - component: {fileID: 1368114429}
   - component: {fileID: 1368114428}
   - component: {fileID: 1368114427}
-  - component: {fileID: 1368114432}
   - component: {fileID: 1368114431}
   - component: {fileID: 1368114430}
+  - component: {fileID: 1368114432}
   m_Layer: 0
   m_Name: P
   m_TagString: Untagged
@@ -1845,7 +1828,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1368114428}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1368114432}
+        m_TargetAssemblyTypeName: AudioButton, Assembly-CSharp
+        m_MethodName: TriggerSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1368114428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1901,7 +1896,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1368114432}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
           m_MethodName: ClickSound
           m_Mode: 1
@@ -2018,7 +2013,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1368114425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d94da54700b9aa247b512991f732bac7, type: 3}
+  m_Script: {fileID: 11500000, guid: bdad95059010d174abe798200df2d6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 1368114431}
@@ -2035,9 +2030,9 @@ GameObject:
   - component: {fileID: 1461409556}
   - component: {fileID: 1461409555}
   - component: {fileID: 1461409554}
-  - component: {fileID: 1461409559}
   - component: {fileID: 1461409558}
   - component: {fileID: 1461409557}
+  - component: {fileID: 1461409559}
   m_Layer: 0
   m_Name: X
   m_TagString: Untagged
@@ -2108,7 +2103,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1461409555}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1461409559}
+        m_TargetAssemblyTypeName: AudioButton, Assembly-CSharp
+        m_MethodName: TriggerSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1461409555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2164,7 +2171,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1461409559}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
           m_MethodName: ClickSound
           m_Mode: 1
@@ -2281,7 +2288,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1461409552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d94da54700b9aa247b512991f732bac7, type: 3}
+  m_Script: {fileID: 11500000, guid: bdad95059010d174abe798200df2d6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 1461409558}
@@ -2720,19 +2727,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1659928353}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1580003919}
-        m_TargetAssemblyTypeName: PanelOpen002, Assembly-CSharp
-        m_MethodName: OpenPanel02
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: T
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1659928353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2881,6 +2876,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFx: {fileID: 1659928355}
   clickFx: {fileID: 8300000, guid: fdd43841c6ad37840a16e15404a0f0d3, type: 3}
+  Panel: {fileID: 1580003918}
+  answer: {fileID: 1994010434}
+  myBTN: {fileID: 1659928352}
 --- !u!114 &1659928357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2901,13 +2899,13 @@ MonoBehaviour:
         - m_Target: {fileID: 1659928356}
           m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
           m_MethodName: ClickSound
-          m_Mode: 1
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: T
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!1 &1776662973
@@ -2960,7 +2958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2980,7 +2978,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: P
+  m_Text: p
 --- !u!222 &1776662976
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3360,7 +3358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3380,7 +3378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: T
+  m_Text: t
 --- !u!222 &1881025346
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3439,7 +3437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3459,7 +3457,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: a
 --- !u!222 &1942061932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3538,7 +3536,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: T
+  m_Text: t
 --- !u!222 &1973742847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3580,6 +3578,7 @@ MonoBehaviour:
   Count: 0
   AnswerLength: 9
   time: {fileID: 948711194}
+  sleepTime: 3000
 --- !u!4 &1994010435
 Transform:
   m_ObjectHideFlags: 0
@@ -3679,7 +3678,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010888408}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2010888410}
+        m_TargetAssemblyTypeName: AudioButton, Assembly-CSharp
+        m_MethodName: TriggerSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: f
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2010888408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3727,7 +3738,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2010888405}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d94da54700b9aa247b512991f732bac7, type: 3}
+  m_Script: {fileID: 11500000, guid: bdad95059010d174abe798200df2d6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 2010888411}
@@ -3845,7 +3856,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2010888410}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: audioFx, Assembly-CSharp
           m_MethodName: ClickSound
           m_Mode: 1
