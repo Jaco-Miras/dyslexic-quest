@@ -342,7 +342,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 256874582}
-  - component: {fileID: 256874581}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -350,20 +349,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &256874581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256874580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 610d1a1588f53d046b895c022054dd4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  answer: {fileID: 0}
-  time: {fileID: 0}
 --- !u!4 &256874582
 Transform:
   m_ObjectHideFlags: 0
@@ -540,10 +525,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2370, y: 1280}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -677,7 +662,7 @@ GameObject:
   - component: {fileID: 1253282294}
   - component: {fileID: 1253282293}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Your time is up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -697,10 +682,10 @@ RectTransform:
   m_Father: {fileID: 64490190}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.37371796, y: 0.43033338}
-  m_AnchorMax: {x: 0.62657267, y: 0.56662965}
-  m_AnchoredPosition: {x: -0.5, y: 1.5}
-  m_SizeDelta: {x: -4.5283203, y: -0.064193726}
+  m_AnchorMin: {x: 0.3758439, y: 0.45711535}
+  m_AnchorMax: {x: 0.62657267, y: 0.546}
+  m_AnchoredPosition: {x: 0.23587036, y: -1.7399979}
+  m_SizeDelta: {x: 0.4717002, y: 2.247696}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253282293
 MonoBehaviour:

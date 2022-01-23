@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
 	public GameObject textDisplay;
-	public static int secondsLeft = 59;
+	public static int secondsLeft = 5;
 	public bool takingAway = false;
 
 	void Start(){

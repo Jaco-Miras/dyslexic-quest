@@ -328,6 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 0}
+  tries: {fileID: 0}
   level: {fileID: 0}
 --- !u!114 &452701251
 MonoBehaviour:
@@ -412,7 +413,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c3f89b71b0d3e504c989cfe932c46c35, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 003c719a773aeae4abbe860cada5015f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -647,7 +648,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You must be Faster, because there is a timer.
+  m_Text: Come with haste, as time is limited.
 --- !u!222 &719383722
 CanvasRenderer:
   m_ObjectHideFlags: 0

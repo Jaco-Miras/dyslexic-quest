@@ -28,4 +28,7 @@ public class Stage3 : MonoBehaviour
 		  SceneManager.LoadScene("03Level01");
    }
 
+   public void StageCompleted(){
+		  SceneManager.LoadScene("03Comp");
+   }
 }

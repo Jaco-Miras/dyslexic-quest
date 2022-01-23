@@ -16,12 +16,14 @@ public class StarsRetry : MonoBehaviour
 		SceneManager.LoadScene("03Level0" + AnswerManager.GetLevel());
 		if (AnswerManager.GetLevel() < 10)
 		{
+			NumberOfTries.attemptsValue += 1;
 			SceneManager.LoadScene("03Level0" + AnswerManager.GetLevel());
 		}
 		else
 		{
 			SceneManager.LoadScene("03Level" + AnswerManager.GetLevel());
 		}
+	
 	}
 
    public void NextLevel()
@@ -38,7 +40,7 @@ public class StarsRetry : MonoBehaviour
 		  }
 		  else if(AnswerManager.GetLevel() > 10)
 		  {
-			SceneManager.LoadScene("Ending Scene1");
+			SceneManager.LoadScene("03Comp");
 		  }
 
 		 

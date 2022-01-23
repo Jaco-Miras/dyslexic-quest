@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainScript : MonoBehaviour
 {
     public Timer timer;
+    public NumberOfTries tries;
     //int level = 1;
     public LevelManager level;
     //public AnswerManager01 answer1;
